@@ -31,7 +31,7 @@ Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within th
 
 ## T-Tests on Suspension Coils
 
-this is a brief summary of our interpretation and findings for the t-test results. Include screenshots of the t-test to support the summary.
+This is a brief summary of our interpretation and findings for the t-test results. Included screenshots of the t-test to support the summary.
 
 ![Resulting Model 1](https://user-images.githubusercontent.com/80492376/124943415-77296c00-dfda-11eb-8dd2-b55e1e2650d3.png)
 
