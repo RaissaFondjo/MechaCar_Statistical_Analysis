@@ -6,4 +6,5 @@ This is a short summary using a screenshot of the output from the linear regress
 2. Is the slope of the linear model considered to be zero? Why or why not?
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
+![Resulting Model 1](https://user-images.githubusercontent.com/80492376/124935866-0b440500-dfd4-11eb-9577-3fbb90760f17.png)
 
