@@ -27,3 +27,21 @@ When looking at the entire population of the production lot, the variance of the
 ![Resulting Model 1](https://user-images.githubusercontent.com/80492376/124940005-983c8d80-dfd7-11eb-9391-c82625f5a7b9.png)
 
 Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
+
+
+## T-Tests on Suspension Coils
+
+this is a brief summary of our interpretation and findings for the t-test results. Include screenshots of the t-test to support the summary.
+
+![Resulting Model 1](https://user-images.githubusercontent.com/80492376/124943415-77296c00-dfda-11eb-8dd2-b55e1e2650d3.png)
+
+From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+
+
+![Resulting Model 1](https://user-images.githubusercontent.com/80492376/124943150-42b5b000-dfda-11eb-8034-a2275f15ea7d.png)
+
+looking at each individual lots:
+
+1. Lot 1 sample actually has the true sample mean of 1500, again as we saw in the summary statistics above. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+2. Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
+3. However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
